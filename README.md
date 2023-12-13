@@ -3,6 +3,8 @@
 Execute commands:
 1. docker compose build airflow-webserver
 2. docker compose up
+3. Setup connection to Postgres with standard parameters (postgresql://airflow:airflow@postgres/airflow), called `postgres_add_conn`.
+4. Run dag.
 
 ## Details
 
